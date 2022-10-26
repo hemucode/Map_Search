@@ -6,9 +6,12 @@ window.setTimeout(function () {
   }
 }, config.welcome.timeout);
 
+// https://www.google.com/maps?q=
+// https://www.bing.com/maps?q=
+// https://yandex.com/maps/?ll=&text=
 window.setTimeout(function() {
   app.context_menu.create("Search selection in " + config.target.name, "selection", function (e) {
-    app.tab.open("https://" + config.target.path + '/search/'+ config.target.TO.value +'?q=' + e);
+    app.tab.open("https://" + config.target.path + config.target.TO.value + e);
   });
 }, 500);
 
