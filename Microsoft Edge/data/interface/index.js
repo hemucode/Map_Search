@@ -20,10 +20,10 @@ function translateHTML (dataKey = 'message') {
   }
 }
 function linkButton() {
-  document.querySelector('.teaser').href = `https://microsoftedge.microsoft.com/addons/detail/wikisearch/${chrome.runtime.id}/reviews`;
+  document.querySelector('.teaser').href = `https://microsoftedge.microsoft.com/addons/detail/mapsearch/${chrome.runtime.id}/reviews`;
   document.querySelector('.youtube').href = `https://youtube.com/c/HemantaGayen`;
   document.querySelector('.facebook').href = `https://www.facebook.com/codehemu/`;
-  document.querySelector('.website').href = `https://www.downloadhub.cloud/2022/09/wikisearch-browser.html`;
+  document.querySelector('.website').href = `https://www.downloadhub.cloud/2022/10/mapsearch.html`;
 }
 
 function hoverButton(){
@@ -72,7 +72,7 @@ function messageclose(){
   localStorage.setItem("message", "nyancat");
 }
 function headericons(){
-    window.open("hhttps://www.downloadhub.cloud/2022/09/wikisearch-browser.html#CSS2",'_blank');
+    window.open("https://www.downloadhub.cloud/2022/10/mapsearch.html#CSS2",'_blank');
 }
 
 
@@ -103,16 +103,6 @@ background.receive("storageData", function (data) {
         var index = e.target.selectedIndex;
         var value = e.target[index].value;
         background.send("TO", {"index": index, "value": value});
-      }, false);
-    }
-
-    var TOO = document.getElementById("TOO");
-    if (TOO) {
-      TOO.selectedIndex = data.toTypeIndex;
-      TOO.addEventListener("change", function (e) {
-        var index = e.target.selectedIndex;
-        var value = e.target[index].value;
-        background.send("TOO", {"index": index, "value": value});
       }, false);
     }
   }
