@@ -1,9 +1,9 @@
 {
    "app_description": {
-      "message": "マウスの右クリックでウィキペディアを選択して検索します。"
+      "message": "マウスの右クリックでマップを選択して検索します。"
    },
    "app_name": {
-      "message": "WikiSearch"
+      "message": "MapSearch"
    },
    "rate": {
       "message" :"私たちを助け、評価してください"
