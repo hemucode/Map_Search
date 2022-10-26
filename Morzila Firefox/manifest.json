@@ -1,8 +1,8 @@
 {
   "version": "1.0.1",
   "manifest_version": 2,
-  "short_name": "wikis",
-  "name": "WikiSearch",
+  "short_name": "maps",
+  "name": "MapSearch",
   "background": {
     "page": "lib/chrome/background.html"
   },
@@ -12,8 +12,8 @@
     "<all_urls>",
     "contextMenus"
   ],
-  "homepage_url": "https://www.downloadhub.cloud/2022/09/wikisearch-browser.html",
-  "description": "Select and search in Wikipedia with mouse right-click.",
+  "homepage_url": "https://www.downloadhub.cloud/2022/10/mapsearch.html",
+  "description": "Select and search in Maps with mouse right-click.",
   "options_ui": {
     "chrome_style": true,
     "page": "data/options/options.html"
