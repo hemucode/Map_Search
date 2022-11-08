@@ -1,9 +1,9 @@
 {
    "app_description": {
-      "message": "用鼠标右键单击在维基百科中选择和搜索。"
+      "message": "用鼠标右键单击在地图中选择和搜索。"
    },
    "app_name": {
-      "message": "WikiSearch"
+      "message": "MapSearch"
    },
    "rate": {
       "message" :"请帮助和评价我们！"

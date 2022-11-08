@@ -1,9 +1,9 @@
 {
    "app_description": {
-      "message": "Selecione e pesquise na Wikipedia com o botão direito do mouse."
+      "message": "Selecione e pesquise na Map com o botão direito do mouse."
    },
    "app_name": {
-      "message": "WikiSearch"
+      "message": "MapSearch"
    },
    "rate":{
       "message": "Please help and rate us!"
